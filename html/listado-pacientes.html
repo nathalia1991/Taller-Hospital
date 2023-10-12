@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Listado Pacientes</title>
+     <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+     <header>
+          <h1>Centro medico Backend</h1>
+     </header>
+     <main>
+          <h2>Listado Pacientes</h2>
+          <table>
+               <thead><!--(encabezados de la tabla)-->
+                    <tr>
+                         <th>Nombres</th>
+                         <th>Apellidos</th>
+                         <th>Numero de cedula</th>
+                         <th>Edad</th>
+                         <th>Telefono</th>
+                         <th>Especialidad</th>
+                         <th>Medico</th>
+                    </tr>
+               </thead>
+               <tbody id="cuerpo-tabla-pacientes">
+                    <!-- Se agraga el contenido dinamicamente por medio de JS -->
+                    <tr>
+                         <td>Jose</td>
+                         <td>Martinez</td>
+                         <td>1098735454</td>
+                         <td>54</td>
+                         <td>3054432100</td>
+                         <td>Medicina general</td>
+                         <td>Liliana</td>
+                    </tr> 
+               </tbody>
+          </table>
+          <a href="../index.html"><input type="button" value="Volver"></a>
+     </main>
+     <footer>
+          <h2>Realizado por: Nathalia Camacho Jaimes</h2>
+          <p>Grupo 1_ Desarrollo Web Backend</p>
+     </footer>
+     <script src="../app.js"></script>
+</body>
+</html>
